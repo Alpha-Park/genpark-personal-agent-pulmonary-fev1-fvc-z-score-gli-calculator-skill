@@ -1,0 +1,24 @@
+{
+  "name": "genpark-personal-agent-pulmonary-fev1-fvc-z-score-gli-calculator-skill",
+  "version": "1.0.0",
+  "description": "Global Lung Function Initiative (GLI-2012) spirometry multi-ethnic continuous z-score and LLN obstructive/restrictive classifier.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "calculate_gli_spirometry_zscores",
+      "description": "Global Lung Function Initiative (GLI-2012) spirometry multi-ethnic continuous z-score and LLN obstructive/restrictive classifier.",
+      "sample_input": {
+        "fev1_liters": 3.85,
+        "fvc_liters": 4.6,
+        "age_years": 42,
+        "height_cm": 178.0,
+        "sex": "MALE",
+        "ethnicity": "CAUCASIAN"
+      }
+    }
+  ]
+}
