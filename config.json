@@ -1,0 +1,7 @@
+{
+  "engine": "genpark-mcp-kernel-v1",
+  "skill_id": 315,
+  "skill_name": "genpark-personal-agent-pulmonary-fev1-fvc-z-score-gli-calculator-skill",
+  "vendor": "GenPark AI",
+  "endpoint": "https://www.genpark.ai/api/v1/skills"
+}
